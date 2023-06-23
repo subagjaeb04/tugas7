@@ -1,0 +1,104 @@
+html {
+  background-color: darkkhaki;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: grey;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: darkgray;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: transparent;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+body section 
+div img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgb(52, 114, 1);
+  border-radius: 50%; }
+
+div h1{
+    font-size: 50;
+    position : relative;
+    top:-200px;
+    left:220px;
+  }
+div h2{
+    font-size: 18;
+    position : relative;
+    top:-240px;
+    left:220px;
+  
+  }
+div button{
+  position: relative;
+  top:-220px;
+  left:220px;
+  border-radius: 20%;
+  background-color: aqua;
+}
+div table{
+  margin-top: -300px;
+  margin-left: 420px;
+}
+form{
+  position: relative;
+  padding: 50px;
+  top : 50px;
+}
+@media(min-width:992px) {
+  .selector { 
+        width:970px; 
+   }
+} 
+
+@media(max-width:768px) {
+   .selector { 
+         width:750px;
+   }
+}
